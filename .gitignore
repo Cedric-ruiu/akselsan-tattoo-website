@@ -1,0 +1,16 @@
+node_modules
+*.log*
+.env
+
+# Local Netlify folder
+.netlify
+
+_site
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
