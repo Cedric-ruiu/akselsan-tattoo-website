@@ -59,34 +59,15 @@ Référence complète : [markdownguide.org/basic-syntax](https://www.markdowngui
 
 ---
 
-### Modifier les informations de contact
+### Préparer une image
 
-Fichier : `_data/contact.yml`
+Avant d'uploader une photo, suivre ces trois étapes :
 
-Modifier les valeurs à droite des `:` (ne pas modifier les noms à gauche).
+1. **Redimensionner** la photo à la résolution souhaitée et l'enregistrer en bonne qualité (JPEG)
+2. **Convertir en WebP** : [pixelied.com/convert/jpg-converter/jpg-to-webp](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
+3. **Compresser** le fichier `.webp` : [tinypng.com](https://tinypng.com/)
 
-Exemple :
-```yaml
-email: contact@akselsan-tattoo.com
-phone: "06 71 51 96 17"
-address: "22 rue de Lingolsheim, 67540 Ostwald"
-```
-
----
-
-### Modifier les liens Instagram et Facebook
-
-Fichier : `_data/site.yml`
-
-Rechercher la section `social` et mettre à jour les URLs :
-
-```yaml
-social:
-  - name: Instagram
-    url: https://www.instagram.com/aksel.san.tattoo
-  - name: Facebook
-    url: https://www.facebook.com/...
-```
+> Convention de nommage : minuscules, sans espaces ni accents (ex: `portfolio18.webp`, `cover.webp`).
 
 ---
 
