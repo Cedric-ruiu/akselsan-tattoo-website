@@ -37,6 +37,9 @@ seo:
 # Google Analytics (laisser vide pour désactiver)
 googleAnalyticsId: ""
 
+# Google Search Console
+googleSiteVerification: "Geuo8shzvs3wkXmuXJgMTqcTZBOy8wyl7DYggumwBMI"
+
 # Footer
 footer:
   copyright: "Aksel San Tattoo"

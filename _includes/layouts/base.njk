@@ -7,6 +7,7 @@
   <title>{% block title %}{{ title }} - {{ site.title }}{% endblock %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% block metaTags %}
+  {% if site.googleSiteVerification %}<meta name="google-site-verification" content="{{ site.googleSiteVerification }}">{% endif %}
   <meta name="description" content="{{ description or site.seo.description }}">
   <link rel="canonical" href="{{ site.baseURL }}{{ page.url }}">
   <meta property="og:title" content="{{ title or site.seo.ogTitle }}">
