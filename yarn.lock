@@ -480,9 +480,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aksel-san-tattoo-website@workspace:.":
+"akselsan-tattoo-website@workspace:.":
   version: 0.0.0-use.local
-  resolution: "aksel-san-tattoo-website@workspace:."
+  resolution: "akselsan-tattoo-website@workspace:."
   dependencies:
     "@11ty/eleventy": "npm:3.1.2"
     "@biomejs/biome": "npm:2.4.6"

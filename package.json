@@ -2,10 +2,10 @@
   "private": true,
   "type": "module",
   "version": "1.0.0",
-  "name": "aksel-san-tattoo-website",
+  "name": "akselsan-tattoo-website",
   "description": "Aksel San Tattoo Website",
   "main": "index.js",
-  "repository": "https://github.com/Cedric-ruiu/aksel-san-tattoo-website.git",
+  "repository": "https://github.com/Cedric-ruiu/akselsan-tattoo-website.git",
   "author": "Cédric Ruiu <cedric.ruiu@gmail.com>",
   "license": "MIT",
   "scripts": {
