@@ -54,14 +54,6 @@
           text-decoration: underline;
         }
       }
-      &.copyright {
-        font-weight: bold;
-        color: lighten($secondary, 50%);
-        display: none;
-        @include media-breakpoint-up(md) {
-          display: inline-block;
-        }
-      }
     }
     @include media-breakpoint-up(sm) {
       height: inherit;
@@ -75,8 +67,11 @@
         list-style: none;
         a {
           display: inline-block;
-          padding: 10px 8px 10px 8px;
+          padding: 10px 8px;
           font-weight: 300;
+        }
+        &:last-of-type a {
+          padding-right: 0;
         }
       }
     }

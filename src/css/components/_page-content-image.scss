@@ -1,0 +1,9 @@
+.page-content-image {
+  margin-bottom: 1.5rem;
+  @include media-breakpoint-up(md) {
+    float: right;
+    width: 45%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+}

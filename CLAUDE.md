@@ -42,7 +42,7 @@ akselsan-tattoo-website/
 │   ├── portfolio/
 │   │   ├── index.md          # Page portfolio
 │   │   └── portfolio01.webp  # Images du portfolio (même dossier)
-│   ├── comment-ca-marche/
+│   ├── deroulement/
 │   │   ├── index.md
 │   │   └── processus.webp
 │   ├── contact/
@@ -77,7 +77,7 @@ Les images sont placées **dans le même dossier que la page qui les utilise**.
 |------|--------------------|
 | Accueil | `src/` (racine) |
 | Portfolio | `src/portfolio/` |
-| Comment ça marche | `src/comment-ca-marche/` |
+| Déroulement | `src/deroulement/` |
 | Contact | `src/contact/` |
 | Cover | `src/cover/` |
 | Flashs | `src/flashs/` |

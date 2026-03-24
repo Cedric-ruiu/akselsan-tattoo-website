@@ -1,6 +1,6 @@
 .main-menu {
   display: none;
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     display: block;
   }
   > ul {
@@ -16,23 +16,23 @@
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: $primary;
+        color: $white;
         &:hover {
-          background: $primary;
-          color: #ffffff;
+          background: $white;
+          color: $primary;
           text-decoration: none;
         }
       }
       &.active {
         > a {
-          background: $primary;
+          background: $white;
           text-decoration: none;
-          color: #ffffff;
+          color: $primary;
           &:hover {
             text-decoration: none;
-            background: $primary;
+            background: $white;
             transition: all 225ms ease-in 0s;
-            color: #ffffff;
+            color: $primary;
           }
         }
       }

@@ -6,12 +6,19 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .sub-footer-copyright {
+    color: lighten($secondary, 40%);
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: right;
+  }
   .sub-footer-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     @include media-breakpoint-up(md) {
       flex-direction: row;
+      align-items: center;
     }
     ul {
       list-style: none;

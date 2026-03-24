@@ -1,12 +1,14 @@
 ---
 layout: page
-title: "Comment ça marche ?"
+title: "Déroulement"
 description: "Tout savoir sur le processus d'un tatouage avec Aksel San : prise de contact, consultation gratuite, déroulement des séances et conseils avant votre rendez-vous."
-ogImage: /comment-ca-marche/processus.webp
-heroHeading: "Comment ça marche ?"
+ogImage: /deroulement/processus.webp
+heroHeading: "Déroulement"
 heroSubHeading: "Du premier contact jusqu'à la séance"
-heroBackground: "/comment-ca-marche/processus.webp"
-permalink: /comment-ca-marche/
+heroBackground: "/deroulement/processus.webp"
+pageImage: /deroulement/processus.webp
+pageImageAlt: "Studio Asphalt Jungle — Aksel San au travail"
+permalink: /deroulement/
 ---
 
 ## Prise de contact
