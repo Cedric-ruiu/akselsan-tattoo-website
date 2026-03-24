@@ -75,7 +75,7 @@ Les images sont placées **dans le même dossier que la page qui les utilise**.
 
 | Page | Dossier des images |
 |------|--------------------|
-| Accueil | `src/accueil/` |
+| Accueil | `src/` (racine) |
 | Portfolio | `src/portfolio/` |
 | Comment ça marche | `src/comment-ca-marche/` |
 | Contact | `src/contact/` |
