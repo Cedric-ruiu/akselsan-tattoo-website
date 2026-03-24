@@ -6,7 +6,10 @@ if (form) {
     var originalText = btn.textContent;
     btn.disabled = true;
     btn.textContent = "Envoi en cours…";
-    var res = await fetch(form.action, { method: "POST", body: new FormData(form) });
+    var res = await fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+    });
     var json = await res.json();
     if (json.success) {
       btn.textContent = "Message envoyé !";
