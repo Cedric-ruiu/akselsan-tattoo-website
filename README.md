@@ -15,7 +15,7 @@ Le contenu présent dans ce dépôt — incluant les textes, photographies, logo
 
 ## Guide de mise à jour du contenu
 
-Ce guide est destiné à Aksel San pour mettre à jour le contenu du site **sans aucune connaissance en développement**, uniquement via l'interface de GitHub.
+Ce guide permet de mettre à jour le contenu du site **sans aucune connaissance en développement**, uniquement via l'interface de GitHub.
 
 > **Important** : toujours commiter sur la branche `main`. Le site se met à jour automatiquement en 1–2 minutes après chaque modification.
 
