@@ -7,6 +7,8 @@ heroHeading: "Cover"
 heroSubHeading: "Recouvrir un ancien tatouage"
 heroBackground: "/cover/cover.webp"
 heroNoOverlay: true
+pageImage: /cover/cover.webp
+pageImageAlt: "Exemple de cover-up réalisé par Aksel San"
 permalink: /cover/
 ---
 
