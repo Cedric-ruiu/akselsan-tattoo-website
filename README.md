@@ -44,8 +44,8 @@ Référence complète : [markdownguide.org/basic-syntax](https://www.markdowngui
 |------|---------|
 | Accueil | `src/index.md` |
 | Portfolio | `src/portfolio/index.md` |
-| Comment ça marche ? | `src/comment-ca-marche/index.md` |
-| Flashs du moment | `src/flashs/index.md` |
+| Déroulement | `src/deroulement/index.md` |
+| Flashs | `src/flashs/index.md` |
 | Cover | `src/cover/index.md` |
 | Contact | `src/contact/index.md` |
 
@@ -133,7 +133,7 @@ Chaque page a une image d'arrière-plan dans son dossier :
 |------|---------|----------------|
 | Accueil | `src/` | `accueil_fond.webp` |
 | Portfolio | `src/portfolio/` | `portfolio01.webp` |
-| Comment ça marche ? | `src/comment-ca-marche/` | `processus.webp` |
+| Déroulement | `src/deroulement/` | `processus.webp` |
 | Flashs | `src/flashs/` | `flashs01.webp` |
 | Cover | `src/cover/` | `cover.webp` |
 | Contact | `src/contact/` | `contact.webp` |
@@ -145,7 +145,7 @@ Chaque page a une image d'arrière-plan dans son dossier :
 3. Dans la zone entre `---`, modifier la valeur `heroBackground` :
 
 ```yaml
-heroBackground: "/comment-ca-marche/nouvelle-image.webp"
+heroBackground: "/deroulement/nouvelle-image.webp"
 ```
 
 4. Commiter sur `main`

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Flashs du moment"
-description: "Flashs du moment disponibles à tatouer chez Aksel San Tattoo à Strasbourg. Motifs originaux prêts à être réalisés, placements et couleurs adaptables."
+title: "Flashs"
+description: "Flashs disponibles à tatouer chez Aksel San Tattoo à Strasbourg. Motifs originaux prêts à être réalisés, placements et couleurs adaptables."
 ogImage: /flashs/flashs01.webp
-heroHeading: "Flashs du moment"
+heroHeading: "Flashs"
 heroSubHeading: "Motifs disponibles à tatouer"
 heroBackground: "/flashs/flashs01.webp"
 permalink: /flashs/
