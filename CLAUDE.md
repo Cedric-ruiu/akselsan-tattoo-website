@@ -28,7 +28,7 @@ Biome enforces: 2-space indentation, double quotes for JS strings, recommended l
 ## Architecture des fichiers
 
 ```
-aksel-san-tattoo-website/
+akselsan-tattoo-website/
 ├── _data/                    # Données globales (YAML) — navigation, contact, images portfolio
 │   ├── site.yml              # Titre, navigation, SEO, réseaux sociaux
 │   ├── contact.yml           # Infos studio (adresse, téléphone, email)
