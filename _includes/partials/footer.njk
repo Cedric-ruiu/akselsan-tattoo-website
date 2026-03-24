@@ -21,9 +21,9 @@
             {% endfor %}
           </ul>
           <ul class="footer-menu">
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li class="copyright">© {% year %} {{ site.footer.copyright }}</li>
+            {% for item in site.nav %}
+            <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
