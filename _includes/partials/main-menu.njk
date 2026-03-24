@@ -1,0 +1,11 @@
+<nav id="main-menu" class="main-menu" aria-label="Navigation principale">
+  <ul>
+    {% for item in site.nav %}
+    <li class="menu-item-{{ item.name | lower }}{% if page.url == item.url %} active{% endif %}">
+      <a href="{{ item.url }}">
+        <span>{{ item.name }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

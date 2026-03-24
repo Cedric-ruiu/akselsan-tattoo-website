@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default('fr') }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% block title %}{{ title }} - {{ site.title }}{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% block metaTags %}
+  <meta name="description" content="{{ description or site.seo.description }}">
+  <link rel="canonical" href="{{ site.baseURL }}{{ page.url }}">
+  <meta property="og:title" content="{{ title or site.seo.ogTitle }}">
+  <meta property="og:description" content="{{ description or site.seo.ogDescription }}">
+  <meta property="og:image" content="{{ site.baseURL }}{{ ogImage or site.seo.ogImage }}">
+  <meta property="og:url" content="{{ site.baseURL }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta name="twitter:card" content="{{ site.seo.twitterCard }}">
+  <meta name="twitter:title" content="{{ title or site.seo.ogTitle }}">
+  <meta name="twitter:description" content="{{ description or site.seo.ogDescription }}">
+  <meta name="twitter:image" content="{{ site.baseURL }}{{ ogImage or site.seo.ogImage }}">
+  {% endblock %}
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  {% if heroBackground %}<link rel="preload" as="image" href="{{ heroBackground }}" fetchpriority="high">{% endif %}
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=roboto-slab:100,800&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    :root {
+      --color-rouge: #e13c32;
+      --color-blanc-casse: #f9efe5;
+      --color-gris: #423a33;
+    }
+  </style>
+  {% block headerCss %}{% endblock %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TattooParlor",
+    "name": "{{ contact.businessName }}",
+    "url": "{{ site.baseURL }}",
+    "logo": "{{ site.baseURL }}{{ site.logo.desktop }}",
+    "image": "{{ site.baseURL }}{{ site.seo.ogImage }}",
+    "description": "{{ site.seo.description }}",
+    "telephone": "{{ contact.phone }}",
+    "email": "{{ contact.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "22 rue de Lingolsheim",
+      "addressLocality": "Ostwald",
+      "postalCode": "67540",
+      "addressCountry": "FR"
+    },
+    "sameAs": [
+      {% for s in site.social %}"{{ s.url }}"{% if not loop.last %},{% endif %}{% endfor %}
+    ]
+  }
+  </script>
+</head>
+
+<body class="page {% block bodyClasses %}{% endblock %}">
+  {% include "partials/main-menu-mobile.njk" %}
+  <div id="wrapper" class="wrapper">
+    {% include "partials/header.njk" %}
+    <main>{% block main %}{% endblock %}</main>
+  </div>
+
+  {% include "partials/footer.njk" %}
+  {% include "partials/sub-footer.njk" %}
+
+  {% block footerJs %}{% endblock %}
+  <script defer src="/js/scripts.js"></script>
+
+  {% if site.googleAnalyticsId %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.googleAnalyticsId }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.googleAnalyticsId }}');
+  </script>
+  {% endif %}
+</body>
+</html>

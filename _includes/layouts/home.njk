@@ -1,0 +1,31 @@
+{% extends "layouts/base.njk" %}
+
+{% block title %}{{ site.title }}{% endblock %}
+
+{% block bodyClasses %}page-home{% endblock %}
+
+{% block main %}
+
+{% include "partials/hero-fullscreen.njk" %}
+
+{# Section présentation #}
+<div id="accueil" class="container pt-8 pb-8 pt-md-12 pb-md-12">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6 mb-4 mb-md-0">
+      {{ content | safe }}
+    </div>
+    <div class="col-12 col-md-6 text-center">
+      <img
+        src="/accueil01.webp"
+        alt="Aksel — tatoueur"
+        width="800"
+        height="600"
+        class="img-fluid"
+        style="max-height: 600px; width: 100%; object-fit: cover;"
+        loading="lazy"
+      >
+    </div>
+  </div>
+</div>
+
+{% endblock %}

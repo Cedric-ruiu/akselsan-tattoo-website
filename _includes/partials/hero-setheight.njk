@@ -1,0 +1,9 @@
+<div id="hero" class="hero-image hero-image-setheight{% if heroNoOverlay %} hero-image-no-overlay{% endif %}" style="background-image: url('{{ heroBackground }}')">
+  <div class="container">
+    <div class="hero-text">
+      {% if heroSection %}<span class="hero-section">{{ heroSection }}</span>{% endif %}
+      <h1>{{ heroHeading }}</h1>
+      {% if heroSubHeading %}<p>{{ heroSubHeading }}</p>{% endif %}
+    </div>
+  </div>
+</div>

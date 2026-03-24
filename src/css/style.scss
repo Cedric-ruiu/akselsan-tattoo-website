@@ -1,0 +1,74 @@
+// Bootstrap — ordre critique : functions → overrides → composants sélectifs
+@import 'bootstrap/scss/functions';
+@import 'bootstrap-variables';
+
+// Core (obligatoires)
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// Base
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/images';       // img-fluid
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';         // row, col-*
+
+// Composants utilisés sur le site
+@import 'bootstrap/scss/forms';        // page Contact
+@import 'bootstrap/scss/buttons';      // btn
+@import 'bootstrap/scss/transitions';  // hover effects
+
+// Helpers & utilitaires
+@import 'bootstrap/scss/helpers';      // visually-hidden
+@import 'bootstrap/scss/utilities/api'; // d-none, pt-*, pb-*, mb-*, g-*, text-center…
+
+// Libraries
+@import 'libraries/hamburgers/hamburgers';
+
+// Components
+@import 'components/reset';
+@import 'components/page';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/sub-footer';
+@import 'components/logo';
+@import 'components/main-menu';
+@import 'components/main-menu-mobile';
+@import 'components/social';
+@import 'components/hamburger';
+@import 'components/buttons';
+@import 'components/title';
+@import 'components/content';
+@import 'components/intro';
+@import 'components/strip';
+@import 'components/whitebox';
+@import 'components/feature';
+@import 'components/hero-image';
+@import 'components/bg';
+@import 'components/type';
+
+
+// Display breakpoints for DEV
+// body:after {
+//   color: #000000;
+//   font-size: 12px;
+//   padding: 5px;
+//   font-weight: bold;
+//   right: 10px;
+//   position: fixed;
+//   text-align: center;
+//   text-transform: uppercase;
+//   bottom: 10px;
+//   width: 200px;
+//   z-index: 9999;
+//   border: solid 1px #000000;
+//   @each $name, $value in $grid-breakpoints {
+//     @include media-breakpoint-up($name) {
+//       content: "#{$name} - min-width: #{$value}";
+//     }
+//   }
+// }

@@ -1,0 +1,49 @@
+# Identité du site
+title: "Aksel San Tattoo"
+lang: "fr"
+description: "Tatoueur professionnel à Strasbourg - Créations sur mesure, japonais, pop culture"
+baseURL: "https://akselsan-tattoo.com"
+
+# Logo
+logo:
+  desktop: "/img/akselsan-logo.svg"
+  desktopAlt: "Aksel San Tattoo"
+  mobile: "/img/akselsan-logo.svg"
+  mobileAlt: "Aksel San Tattoo"
+
+# Navigation principale
+nav:
+  - name: "Accueil"
+    url: "/"
+  - name: "Portfolio"
+    url: "/portfolio/"
+  - name: "Comment ça marche ?"
+    url: "/comment-ca-marche/"
+  - name: "Flashs du moment"
+    url: "/flashs/"
+  - name: "Cover"
+    url: "/cover/"
+  - name: "Contact"
+    url: "/contact/"
+
+# SEO / Open Graph
+seo:
+  description: "Tatoueur professionnel à Strasbourg - Art sur mesure, japonais, pop culture"
+  ogTitle: "Aksel San Tattoo"
+  ogDescription: "Des tatouages uniques créés pour vous"
+  ogImage: "/accueil_fond.webp"
+  twitterCard: "summary_large_image"
+
+# Google Analytics (laisser vide pour désactiver)
+googleAnalyticsId: ""
+
+# Footer
+footer:
+  copyright: "Aksel San Tattoo"
+
+# Réseaux sociaux
+social:
+  - name: "Instagram"
+    url: "https://www.instagram.com/aksel.san.tattoo/"
+  - name: "Facebook"
+    url: "https://www.facebook.com/aksel.san.tattoo/"

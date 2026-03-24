@@ -1,0 +1,101 @@
+.hero-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: $primary;
+  height: 400px;
+  position: relative;
+  padding-top: 60px;
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .row {
+    height: inherit;
+  }
+  .hero-text {
+    flex: 0;
+    margin: auto 0;
+    h1,
+    h2,
+    p {
+      color: var(--color-blanc-casse);
+    }
+    h1 {
+      font-size: 3rem;
+      @include media-breakpoint-up(md) {
+        font-size: 4rem;
+        width: 80%;
+      }
+    }
+    h2 {
+      font-size: 2.2rem;
+      @include media-breakpoint-up(md) {
+        font-size: 2.4rem;
+      }
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 1.3;
+      @include media-breakpoint-up(md) {
+        font-size: 1.6rem;
+        width: 60%;
+      }
+    }
+  }
+  .hero-down {
+    flex: 0;
+    text-align: center;
+    opacity: 0.7;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .hero-section {
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
+
+// Hero accueil : image N&B, titres en rouge
+.hero-home-wrapper {
+  background: none;
+  background-color: transparent;
+
+  // Couche image de fond en noir et blanc
+  .hero-grayscale {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+  }
+
+  // Titres et sous-titre en rouge sur fond N&B
+  .hero-text h1,
+  .hero-text h2,
+  .hero-text p {
+    color: var(--color-rouge);
+  }
+}
+
+.hero-image-fullscreen {
+  height: 100vh;
+}
+.hero-image-setheight {
+  height: 460px;
+}
+.hero-image-blend-overlay {
+  background-blend-mode: overlay;
+}
+
+// Image déjà traitée (filigrane baked in) — pas de double effet couleur
+.hero-image-no-overlay {
+  background-blend-mode: normal;
+  background-color: transparent;
+}
+
