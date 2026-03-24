@@ -1,3 +1,6 @@
+// Polices auto-hébergées (avant tout le reste pour éviter le FOUT)
+@import 'components/fonts';
+
 // Bootstrap — ordre critique : functions → overrides → composants sélectifs
 @import 'bootstrap/scss/functions';
 @import 'bootstrap-variables';
