@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aksel-san-tattoo.com/sitemap.xml

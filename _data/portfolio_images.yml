@@ -1,0 +1,38 @@
+# Pour chaque image, renseigner :
+#   src : chemin de l'image (ne pas modifier)
+#   alt : description courte du tatouage (à personnaliser selon le motif réel)
+images:
+  - src: /portfolio/portfolio01.webp
+    alt: "Tatouage néo-traditionnel réalisé par Aksel San à Strasbourg — Oiseau coloré sur le bras"
+  - src: /portfolio/portfolio02.webp
+    alt: "Tatouage new school réalisé par Aksel San à Strasbourg — Fleurs colorées sur le bras"
+  - src: /portfolio/portfolio03.webp
+    alt: "Tatouage japonais réalisé par Aksel San à Strasbourg — Carpe Koï et sakura"
+  - src: /portfolio/portfolio04.webp
+    alt: "Tatouage couleurs réalisé par Aksel San à Strasbourg — Corbeau et chrysanthèmes"
+  - src: /portfolio/portfolio05.webp
+    alt: "Tatouage couleurs réalisé par Aksel San à Strasbourg — Hamburger crâne pop culture"
+  - src: /portfolio/portfolio06.webp
+    alt: "Tatouage japonais réalisé par Aksel San à Strasbourg — Maneki Neko chat porte-bonheur"
+  - src: /portfolio/portfolio07.webp
+    alt: "Tatouage couleurs réalisé par Aksel San à Strasbourg — Fleurs et boule de pétanque"
+  - src: /portfolio/portfolio08.webp
+    alt: "Tatouage pop culture réalisé par Aksel San à Strasbourg — Magicarpe Pokémon pixel art"
+  - src: /portfolio/portfolio09.webp
+    alt: "Tatouage pop culture réalisé par Aksel San à Strasbourg — Sonic le hérisson jeux vidéo"
+  - src: /portfolio/portfolio10.webp
+    alt: "Tatouage couleurs réalisé par Aksel San à Strasbourg — Portrait zombie"
+  - src: /portfolio/portfolio11.webp
+    alt: "Tatouage kawaii réalisé par Aksel San à Strasbourg — Sushis mignons"
+  - src: /portfolio/portfolio12.webp
+    alt: "Tatouage couleurs réalisé par Aksel San à Strasbourg — Chat magicien"
+  - src: /portfolio/portfolio13.webp
+    alt: "Tatouage noir et gris réalisé par Aksel San — Aigle traditionnel Américain"
+  - src: /portfolio/portfolio14.webp
+    alt: "Tatouage japonais réalisé par Aksel San à Strasbourg — Masque Oni sur le bras"
+  - src: /portfolio/portfolio15.webp
+    alt: "Tatouage noir et gris réalisé par Aksel San à Strasbourg — Serpent"
+  - src: /portfolio/portfolio16.webp
+    alt: "Tatouage japonais réalisé par Aksel San à Strasbourg — Serpent Hebi et pivoine"
+  - src: /portfolio/portfolio17.webp
+    alt: "Tatouage japonais réalisé par Aksel San à Strasbourg — Pivoine et sakura"
