@@ -5,7 +5,7 @@ description: "Tout savoir sur le processus d'un tatouage avec Aksel San : prise 
 ogImage: /deroulement/processus.webp
 heroHeading: "Déroulement"
 heroSubHeading: "Du premier contact jusqu'à la séance"
-heroBackground: "/deroulement/processus.webp"
+heroBackground: "/deroulement/deroulement-fond.webp"
 permalink: /deroulement/
 ---
 

@@ -67,7 +67,7 @@ Avant d'uploader une photo, suivre ces trois étapes :
 2. **Convertir en WebP** : [pixelied.com/convert/jpg-converter/jpg-to-webp](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
 3. **Compresser** le fichier `.webp` : [tinypng.com](https://tinypng.com/)
 
-> Convention de nommage : minuscules, sans espaces ni accents (ex: `portfolio18.webp`, `cover.webp`).
+> Convention de nommage : minuscules, sans espaces ni accents (ex: `portfolio18.webp`, `cover-fond.webp`).
 
 ---
 
@@ -155,8 +155,8 @@ Chaque page a une image d'arrière-plan dans son dossier :
 | Portfolio | `src/portfolio/` | `portfolio01.webp` |
 | Déroulement | `src/deroulement/` | `processus.webp` |
 | Flashs | `src/flashs/` | `flashs01.webp` |
-| Cover | `src/cover/` | `cover.webp` |
-| Contact | `src/contact/` | `contact.webp` |
+| Cover | `src/cover/` | `cover-fond.webp` |
+| Contact | `src/contact/` | `contact-fond.webp` |
 
 **Pour changer l'image de fond :**
 

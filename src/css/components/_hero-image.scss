@@ -2,8 +2,6 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-blend-mode: overlay;
-  background-color: $primary;
   height: 400px;
   position: relative;
   padding-top: 60px;
@@ -22,7 +20,7 @@
     h1,
     h2,
     p {
-      color: var(--color-blanc-casse);
+      color: var(--color-rouge);
     }
     h1 {
       font-size: 3rem;
@@ -60,42 +58,9 @@
   }
 }
 
-// Hero accueil : image N&B, titres en rouge
-.hero-home-wrapper {
-  background: none;
-  background-color: transparent;
-
-  // Couche image de fond en noir et blanc
-  .hero-grayscale {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
-  }
-
-  // Titres et sous-titre en rouge sur fond N&B
-  .hero-text h1,
-  .hero-text h2,
-  .hero-text p {
-    color: var(--color-rouge);
-  }
-}
-
 .hero-image-fullscreen {
   height: 100vh;
 }
 .hero-image-setheight {
   height: 460px;
 }
-.hero-image-blend-overlay {
-  background-blend-mode: overlay;
-}
-
-// Image déjà traitée (filigrane baked in) — pas de double effet couleur
-.hero-image-no-overlay {
-  background-blend-mode: normal;
-  background-color: transparent;
-}
-

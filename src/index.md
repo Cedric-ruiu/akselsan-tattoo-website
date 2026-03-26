@@ -5,7 +5,6 @@ description: "Aksel San Tattoo — Tatoueur à Strasbourg spécialisé en japona
 heroHeading: "Aksel San Tattoo"
 heroSubHeading: "Tatoueur sur Ostwald, proche de Strasbourg"
 heroBackground: "/accueil-fond.webp"
-heroNoOverlay: true
 permalink: /
 ---
 

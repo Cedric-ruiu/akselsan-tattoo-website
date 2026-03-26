@@ -5,7 +5,7 @@ description: "Découvrez le portfolio d'Aksel San, tatoueur à Strasbourg — r�
 ogImage: /portfolio/portfolio01.webp
 heroHeading: "Portfolio"
 heroSubHeading: "Un aperçu de mon travail"
-heroBackground: "/portfolio/portfolio01.webp"
+heroBackground: "/portfolio/portfolio-fond.webp"
 permalink: /portfolio/
 tags: []
 ---
