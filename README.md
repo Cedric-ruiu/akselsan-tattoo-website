@@ -125,6 +125,26 @@ La page Flashs affiche **exactement 2 images** : `flashs01.webp` et `flashs02.we
 
 ---
 
+### Modifier l'image dans le corps d'une page
+
+Les pages **Accueil**, **Déroulement** et **Cover** affichent une photo au milieu du texte. Elle est placée directement dans le fichier `index.md` de la page, entre deux paragraphes, sous la forme d'une balise HTML :
+
+```html
+<img src="/cover/cover-fond.webp" alt="Exemple de cover-up réalisé par Aksel San" class="img-fluid page-content-image" loading="lazy">
+```
+
+**Pour remplacer cette image :**
+
+1. Uploader la nouvelle image `.webp` dans le dossier de la page (ex: `src/cover/`)
+2. Ouvrir le fichier `index.md` de la page
+3. Repérer la ligne `<img src="...">` dans le corps du texte (sous la zone `---`)
+4. Remplacer la valeur `src="..."` par le chemin de la nouvelle image, et `alt="..."` par une description adaptée
+5. Commiter sur `main`
+
+> Ne pas modifier les attributs `class="img-fluid page-content-image"` et `loading="lazy"`.
+
+---
+
 ### Modifier l'image de fond d'une page
 
 Chaque page a une image d'arrière-plan dans son dossier :

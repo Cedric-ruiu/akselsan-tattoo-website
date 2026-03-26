@@ -7,12 +7,12 @@ heroHeading: "Cover"
 heroSubHeading: "Recouvrir un ancien tatouage"
 heroBackground: "/cover/cover.webp"
 heroNoOverlay: true
-pageImage: /cover/cover.webp
-pageImageAlt: "Exemple de cover-up réalisé par Aksel San"
 permalink: /cover/
 ---
 
 **Tous les tatouages ne peuvent pas être recouverts. La faisabilité dépend de la taille, de la densité et du contraste du tatouage existant.**
+
+<img src="/cover/cover-fond.webp" alt="Exemple de cover-up réalisé par Aksel San" class="img-fluid page-content-image" loading="lazy">
 
 Les projets de cover consistent à recouvrir un ancien tatouage par un nouveau motif. Pour obtenir un résultat efficace, le nouveau tatouage doit généralement être plus grand que l'ancien et dépasser son cadre.
 
