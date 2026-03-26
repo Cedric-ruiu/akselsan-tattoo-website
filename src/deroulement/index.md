@@ -5,9 +5,7 @@ description: "Tout savoir sur le processus d'un tatouage avec Aksel San : prise 
 ogImage: /deroulement/processus.webp
 heroHeading: "Déroulement"
 heroSubHeading: "Du premier contact jusqu'à la séance"
-heroBackground: "/deroulement/processus.webp"
-pageImage: /deroulement/processus.webp
-pageImageAlt: "Studio Asphalt Jungle — Aksel San au travail"
+heroBackground: "/deroulement/deroulement-fond.webp"
 permalink: /deroulement/
 ---
 
@@ -24,6 +22,8 @@ La consultation nous permet de discuter plus en détail de votre projet : sa fai
 Ce rendez-vous dure généralement entre 30 et 40 minutes et ne comporte aucun engagement financier.
 
 Si nous décidons de travailler ensemble, je vous donne une estimation du nombre de séances nécessaires ainsi qu'une indication tarifaire. Si cela vous convient, nous fixons alors le ou les rendez-vous et un acompte est demandé pour confirmer les dates.
+
+<img src="/deroulement/processus.webp" alt="Studio Asphalt Jungle — Aksel San au travail" class="img-fluid page-content-image" loading="lazy">
 
 ## Les séances
 

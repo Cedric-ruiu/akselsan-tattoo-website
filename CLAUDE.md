@@ -47,10 +47,10 @@ akselsan-tattoo-website/
 │   │   └── processus.webp
 │   ├── contact/
 │   │   ├── index.md
-│   │   └── contact.webp
+│   │   └── contact-fond.webp
 │   ├── cover/
 │   │   ├── index.md
-│   │   └── cover.webp
+│   │   └── cover-fond.webp
 │   ├── flashs/
 │   │   ├── index.md
 │   │   └── flashs01.webp, flashs02.webp
@@ -96,7 +96,7 @@ Toutes les images en format `.webp` sont copiées automatiquement vers `_site/` 
 ### Convention de nommage
 
 - Utiliser le format `.webp` (meilleure compression, qualité identique)
-- Noms en minuscules, sans espaces ni accents (ex: `contact.webp`, `portfolio01.webp`)
+- Noms en minuscules, sans espaces ni accents (ex: `contact-fond.webp`, `portfolio01.webp`)
 
 ## Modifier les données du site
 

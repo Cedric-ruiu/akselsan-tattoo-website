@@ -5,13 +5,12 @@ description: "Aksel San Tattoo — Tatoueur à Strasbourg spécialisé en japona
 heroHeading: "Aksel San Tattoo"
 heroSubHeading: "Tatoueur sur Ostwald, proche de Strasbourg"
 heroBackground: "/accueil-fond.webp"
-heroNoOverlay: true
-pageImage: /accueil01.webp
-pageImageAlt: "Aksel — tatoueur"
 permalink: /
 ---
 
 Je m'appelle Aksel, tatoueur depuis plus de 10 ans dans la région de Strasbourg. Je réalise principalement des pièces uniques, créées à partir de vos idées ou de mes flashs disponibles au studio (dessins disponibles à tatouer).
+
+<img src="/accueil01.webp" alt="Aksel — tatoueur" class="img-fluid page-content-image" loading="lazy">
 
 Mon travail est fortement influencé par la culture japonaise et la pop culture. J'accorde une place importante à la couleur, que je travaille en aplats ou à travers des dégradés subtils et contrastés.
 

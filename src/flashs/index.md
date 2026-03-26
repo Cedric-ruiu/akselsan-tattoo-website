@@ -5,7 +5,7 @@ description: "Flashs disponibles à tatouer chez Aksel San Tattoo à Strasbourg.
 ogImage: /flashs/flashs01.webp
 heroHeading: "Flashs"
 heroSubHeading: "Motifs disponibles à tatouer"
-heroBackground: "/flashs/flashs01.webp"
+heroBackground: "/flashs/flashs-fond.webp"
 permalink: /flashs/
 ---
 
