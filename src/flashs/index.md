@@ -21,7 +21,7 @@ Les flashs permettent aussi de découvrir mon univers graphique de façon concen
 
 Oui, dans une certaine mesure. Le dessin lui-même reste fixe — c'est ce qui en fait un flash — mais le placement sur le corps, la taille et parfois les couleurs peuvent être discutés en fonction de ta morphologie et de tes préférences. Si tu as un doute, le mieux est de m'en parler directement.
 
-<div class="row g-3 mt-2">
+<div class="row g-3 mt-2 mb-4">
   <div class="col-12 col-sm-6">
     <img src="/flashs/flashs01.webp" alt="Flash disponible 1" class="img-fluid w-100" loading="lazy">
   </div>
