@@ -15,8 +15,8 @@
     "format": "biome format --write . && biome check . --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.8",
-    "sass-embedded": "1.98.0",
+    "@biomejs/biome": "2.4.10",
+    "sass-embedded": "1.99.0",
     "yaml": "2.8.3"
   },
   "dependencies": {

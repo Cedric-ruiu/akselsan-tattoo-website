@@ -38,3 +38,11 @@ Il est conseillé de venir reposé et en ayant mangé au préalable, car une sé
 Pensez à porter des vêtements adaptés à la zone à tatouer (amples et sans peur de les salir).
 
 Du thé, du café et de l'eau sont à votre disposition au studio.
+
+## Après la séance
+
+Une fois la séance terminée, le tatouage est recouvert d'un film protecteur. Je vous fournis les consignes de soin adaptées à votre peau et à la taille du tatouage.
+
+La cicatrisation prend en général entre deux et quatre semaines. Pendant cette période, il est important d'éviter l'exposition au soleil direct, les bains prolongés et le grattage. Un tatouage bien soigné est un tatouage qui garde ses couleurs et sa netteté sur le long terme.
+
+En cas de question après la séance, vous pouvez me contacter directement — je reste disponible si quelque chose vous semble inhabituel pendant la cicatrisation.
