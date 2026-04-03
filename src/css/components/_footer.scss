@@ -26,7 +26,6 @@
     }
   }
   .footer-menu {
-    margin-top: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,11 +35,6 @@
       justify-content: flex-end;
       flex-wrap: nowrap;
     }
-  }
-  .social {
-    display: flex;
-    justify-content: start;
-    gap: 10px;
   }
   ul {
     list-style: none;
