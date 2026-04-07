@@ -32,8 +32,6 @@
     flex-wrap: wrap;
     @include media-breakpoint-up(md) {
       margin-top: 0;
-      justify-content: flex-end;
-      flex-wrap: nowrap;
     }
   }
   ul {
