@@ -13,7 +13,7 @@
       > a {
         padding: 10px 14px 10px 14px;
         display: inline-block;
-        font-weight: regular;
+        font-weight: 400;
         text-transform: uppercase;
         text-decoration: none;
         color: $white;
@@ -31,7 +31,6 @@
           &:hover {
             text-decoration: none;
             background: $white;
-            transition: all 225ms ease-in 0s;
             color: $primary;
           }
         }

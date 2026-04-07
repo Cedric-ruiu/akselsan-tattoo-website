@@ -43,7 +43,6 @@
       margin: 0;
       padding: 0;
       li {
-        list-style: none;
         display: block;
         text-align: center;
         color: lighten($secondary, 40%);
@@ -66,11 +65,6 @@
           padding: 10px 0 10px 8px;
           font-weight: bold;
           color: #ffffff;
-        }
-        &.zerostatic {
-          a {
-            color: #ffffff;
-          }
         }
       }
       @include media-breakpoint-up(md) {
