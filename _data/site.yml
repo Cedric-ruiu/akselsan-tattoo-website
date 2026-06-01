@@ -31,7 +31,7 @@ seo:
   description: "Tatoueur professionnel à Strasbourg - Art sur mesure, japonais, pop culture"
   ogTitle: "Aksel San Tattoo"
   ogDescription: "Des tatouages uniques créés pour vous"
-  ogImage: "/accueil_fond.webp"
+  ogImage: "/accueil-fond.webp"
   twitterCard: "summary_large_image"
 
 # Google Analytics (laisser vide pour désactiver)
