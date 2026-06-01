@@ -1,6 +1,34 @@
 businessName: "Aksel San Tattoo"
+artist: "Aksel San"
 studio: "Asphalt Jungle"
 email: "contact@akselsan-tattoo.com"
 phone: "06 71 51 96 17"
 address: "22 rue de Lingolsheim\n67540 Ostwald"
 social_handle: "aksel.san.tattoo"
+
+# Adresse structurée (utilisée par le schema JSON-LD)
+streetAddress: "22 rue de Lingolsheim"
+postalCode: "67540"
+city: "Ostwald"
+
+# Coordonnées GPS (issues de la carte OpenStreetMap)
+geo:
+  lat: 48.5451
+  lng: 7.7031
+mapUrl: "https://www.openstreetmap.org/?mlat=48.5451&mlon=7.7031#map=16/48.5451/7.7031"
+
+# Horaires d'ouverture (mardi à samedi, fermé lundi et dimanche)
+hours:
+  daysLabel: "Du mardi au samedi"
+  days: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  opens: "14:00"
+  closes: "20:00"
+
+# Zones desservies (référencement local)
+areaServed:
+  - "Ostwald"
+  - "Strasbourg"
+  - "Lingolsheim"
+  - "Illkirch-Graffenstaden"
+  - "Bas-Rhin"
+  - "Alsace"
