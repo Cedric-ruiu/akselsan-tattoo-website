@@ -23,7 +23,7 @@ Ce rendez-vous dure généralement entre 30 et 40 minutes et ne comporte aucun e
 
 Si nous décidons de travailler ensemble, je vous donne une estimation du nombre de séances nécessaires ainsi qu'une indication tarifaire. Si cela vous convient, nous fixons alors le ou les rendez-vous et un acompte est demandé pour confirmer les dates.
 
-<img src="/deroulement/processus.webp" alt="Studio Asphalt Jungle — Aksel San au travail" class="img-fluid page-content-image" loading="lazy">
+<img src="/deroulement/processus.webp" alt="Studio Asphalt Jungle — Aksel San au travail" width="1080" height="1350" class="img-fluid page-content-image" loading="lazy">
 
 ## Les séances
 

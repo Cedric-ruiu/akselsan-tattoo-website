@@ -10,7 +10,7 @@ permalink: /
 
 Je m'appelle Aksel, tatoueur depuis plus de 10 ans dans la région de Strasbourg. Je réalise principalement des [pièces uniques](/portfolio/), créées à partir de vos idées ou de mes [flashs disponibles](/flashs/) au studio (dessins disponibles à tatouer).
 
-<img src="/accueil01.webp" alt="Aksel — tatoueur" class="img-fluid page-content-image" loading="lazy">
+<img src="/accueil01.webp" alt="Aksel — tatoueur" width="1080" height="1350" class="img-fluid page-content-image" loading="lazy">
 
 ## Tatoueur japonais & pop culture à Strasbourg
 
