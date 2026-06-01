@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: "Contact"
+title: "Contact & rendez-vous à Ostwald"
 description: "Prenez rendez-vous avec Aksel San Tattoo, studio Asphalt Jungle, 22 rue de Lingolsheim, Ostwald. Tatoueur à Strasbourg."
 ogImage: /contact/contact-fond.webp
 heroHeading: "Contact"

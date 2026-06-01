@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Déroulement"
-description: "Tout savoir sur le processus d'un tatouage avec Aksel San : prise de contact, consultation gratuite, déroulement des séances et conseils avant votre rendez-vous."
+title: "Déroulement d'un tatouage"
+description: "Le déroulement d'un tatouage avec Aksel San à Strasbourg : prise de contact, consultation gratuite, séances et conseils avant le rendez-vous."
 ogImage: /deroulement/processus.webp
 heroHeading: "Déroulement"
 heroSubHeading: "Du premier contact jusqu'à la séance"

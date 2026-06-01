@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tatoueur à Strasbourg"
+title: "Tatoueur à Strasbourg & Ostwald"
 description: "Aksel San Tattoo — Tatoueur à Strasbourg spécialisé en japonais, pop culture et créations sur mesure. Studio Asphalt Jungle, Ostwald."
 heroHeading: "Aksel San Tattoo"
 heroSubHeading: "Tatoueur sur Ostwald, proche de Strasbourg"
