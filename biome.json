@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!node_modules", "!_site", "!.vscode", "!.yarn"]
+    "includes": ["**", "!node_modules", "!_site", "!.vscode", "!.yarn", "!tmp"]
   },
   "formatter": {
     "enabled": true,
