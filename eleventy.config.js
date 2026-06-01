@@ -66,6 +66,10 @@ export default function (eleventyConfig) {
 
   // ── Shortcodes ──────────────────────────────────────────────────
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode(
+    "buildDate",
+    () => new Date().toISOString().split("T")[0],
+  );
 
   // ── Config ──────────────────────────────────────────────────────
   return {

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Déroulement"
-description: "Tout savoir sur le processus d'un tatouage avec Aksel San : prise de contact, consultation gratuite, déroulement des séances et conseils avant votre rendez-vous."
+title: "Déroulement d'un tatouage"
+description: "Le déroulement d'un tatouage avec Aksel San à Strasbourg : prise de contact, consultation gratuite, séances et conseils avant le rendez-vous."
 ogImage: /deroulement/processus.webp
 heroHeading: "Déroulement"
 heroSubHeading: "Du premier contact jusqu'à la séance"
@@ -11,7 +11,7 @@ permalink: /deroulement/
 
 ## Prise de contact
 
-Pour démarrer un projet, vous pouvez me contacter en décrivant brièvement votre idée : les éléments du tatouage, son emplacement sur le corps, sa taille approximative, ainsi que quelques images de référence si vous en avez.
+Pour démarrer un projet, vous pouvez [me contacter](/contact/) en décrivant brièvement votre idée : les éléments du tatouage, son emplacement sur le corps, sa taille approximative, ainsi que quelques images de référence si vous en avez.
 
 Je vous répondrai ensuite afin de vous proposer un rendez-vous de consultation au studio.
 
@@ -23,7 +23,7 @@ Ce rendez-vous dure généralement entre 30 et 40 minutes et ne comporte aucun e
 
 Si nous décidons de travailler ensemble, je vous donne une estimation du nombre de séances nécessaires ainsi qu'une indication tarifaire. Si cela vous convient, nous fixons alors le ou les rendez-vous et un acompte est demandé pour confirmer les dates.
 
-<img src="/deroulement/processus.webp" alt="Studio Asphalt Jungle — Aksel San au travail" class="img-fluid page-content-image" loading="lazy">
+<img src="/deroulement/processus.webp" alt="Studio Asphalt Jungle — Aksel San au travail" width="1080" height="1350" class="img-fluid page-content-image" loading="lazy">
 
 ## Les séances
 
@@ -45,4 +45,4 @@ Une fois la séance terminée, le tatouage est recouvert d'un film protecteur. J
 
 La cicatrisation prend en général entre deux et quatre semaines. Pendant cette période, il est important d'éviter l'exposition au soleil direct, les bains prolongés et le grattage. Un tatouage bien soigné est un tatouage qui garde ses couleurs et sa netteté sur le long terme.
 
-En cas de question après la séance, vous pouvez me contacter directement — je reste disponible si quelque chose vous semble inhabituel pendant la cicatrisation.
+En cas de question après la séance, vous pouvez [me contacter](/contact/) directement — je reste disponible si quelque chose vous semble inhabituel pendant la cicatrisation.

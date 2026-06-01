@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Flashs"
+title: "Flashs disponibles à tatouer à Strasbourg"
 description: "Flashs disponibles à tatouer chez Aksel San Tattoo à Strasbourg. Motifs originaux prêts à être réalisés, placements et couleurs adaptables."
 ogImage: /flashs/flashs01.webp
 heroHeading: "Flashs"
@@ -23,10 +23,10 @@ Oui, dans une certaine mesure. Le dessin lui-même reste fixe — c'est ce qui e
 
 <div class="row g-3 mt-2 mb-4">
   <div class="col-12 col-sm-6">
-    <img src="/flashs/flashs01.webp" alt="Flash disponible 1" class="img-fluid w-100" loading="lazy">
+    <img src="/flashs/flashs01.webp" alt="Flash disponible 1" width="1080" height="1350" class="img-fluid w-100" loading="lazy">
   </div>
   <div class="col-12 col-sm-6">
-    <img src="/flashs/flashs02.webp" alt="Flash disponible 2" class="img-fluid w-100" loading="lazy">
+    <img src="/flashs/flashs02.webp" alt="Flash disponible 2" width="1080" height="1350" class="img-fluid w-100" loading="lazy">
   </div>
 </div>
 

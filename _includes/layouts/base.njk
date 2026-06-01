@@ -51,10 +51,30 @@
     "email": "{{ contact.email }}",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "22 rue de Lingolsheim",
-      "addressLocality": "Ostwald",
-      "postalCode": "67540",
+      "streetAddress": "{{ contact.streetAddress }}",
+      "addressLocality": "{{ contact.city }}",
+      "postalCode": "{{ contact.postalCode }}",
       "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ contact.geo.lat }},
+      "longitude": {{ contact.geo.lng }}
+    },
+    "hasMap": "{{ contact.mapUrl }}",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [{% for d in contact.hours.days %}"{{ d }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+        "opens": "{{ contact.hours.opens }}",
+        "closes": "{{ contact.hours.closes }}"
+      }
+    ],
+    "areaServed": [{% for a in contact.areaServed %}"{{ a }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+    "founder": {
+      "@type": "Person",
+      "name": "{{ contact.artist }}",
+      "jobTitle": "Tatoueur"
     },
     "sameAs": [
       {% for s in site.social %}"{{ s.url }}"{% if not loop.last %},{% endif %}{% endfor %}

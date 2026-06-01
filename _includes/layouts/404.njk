@@ -1,7 +1,8 @@
----
-layout: base
----
+{% extends "layouts/base.njk" %}
+
 {% block title %}Page introuvable - {{ site.title }}{% endblock %}
+
+{% block bodyClasses %}page-simple{% endblock %}
 
 {% block main %}
 <div class="container pt-9 pb-9 pt-md-13 pb-md-13">

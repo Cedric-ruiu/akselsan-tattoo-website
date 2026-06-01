@@ -13,3 +13,5 @@ _site
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+tmp

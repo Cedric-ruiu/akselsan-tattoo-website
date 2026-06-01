@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Cover"
+title: "Cover-up de tatouage à Strasbourg"
 description: "Spécialiste du cover-up à Strasbourg — Aksel San transforme vos anciens tatouages en créations modernes et esthétiques. Étude au cas par cas."
 ogImage: /cover/cover-fond.webp
 heroHeading: "Cover"
@@ -11,7 +11,7 @@ permalink: /cover/
 
 **Tous les tatouages ne peuvent pas être recouverts. La faisabilité dépend de la taille, de la densité et du contraste du tatouage existant.**
 
-<img src="/cover/cover.webp" alt="Exemple de cover-up réalisé par Aksel San" class="img-fluid page-content-image" loading="lazy">
+<img src="/cover/cover.webp" alt="Exemple de cover-up réalisé par Aksel San" width="1350" height="1080" class="img-fluid page-content-image" loading="lazy">
 
 Les projets de cover consistent à recouvrir un ancien tatouage par un nouveau motif. Pour obtenir un résultat efficace, le nouveau tatouage doit généralement être plus grand que l'ancien et dépasser son cadre.
 
