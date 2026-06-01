@@ -11,7 +11,7 @@ permalink: /deroulement/
 
 ## Prise de contact
 
-Pour démarrer un projet, vous pouvez me contacter en décrivant brièvement votre idée : les éléments du tatouage, son emplacement sur le corps, sa taille approximative, ainsi que quelques images de référence si vous en avez.
+Pour démarrer un projet, vous pouvez [me contacter](/contact/) en décrivant brièvement votre idée : les éléments du tatouage, son emplacement sur le corps, sa taille approximative, ainsi que quelques images de référence si vous en avez.
 
 Je vous répondrai ensuite afin de vous proposer un rendez-vous de consultation au studio.
 
@@ -45,4 +45,4 @@ Une fois la séance terminée, le tatouage est recouvert d'un film protecteur. J
 
 La cicatrisation prend en général entre deux et quatre semaines. Pendant cette période, il est important d'éviter l'exposition au soleil direct, les bains prolongés et le grattage. Un tatouage bien soigné est un tatouage qui garde ses couleurs et sa netteté sur le long terme.
 
-En cas de question après la séance, vous pouvez me contacter directement — je reste disponible si quelque chose vous semble inhabituel pendant la cicatrisation.
+En cas de question après la séance, vous pouvez [me contacter](/contact/) directement — je reste disponible si quelque chose vous semble inhabituel pendant la cicatrisation.
